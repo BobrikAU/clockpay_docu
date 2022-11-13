@@ -1,4 +1,13 @@
 .page{
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: var(--textColorBlack);
+  background-color: var(--mainColorBackground);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  max-width: 1440px;
+  padding: 10px;
+  margin: 0 auto;
 }

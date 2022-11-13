@@ -1,0 +1,11 @@
+.footer__icon-pay{
+  width: 48px;
+  height: 48px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__icon-pay{
+    width: 72px;
+    height: 72px;
+  }
+}

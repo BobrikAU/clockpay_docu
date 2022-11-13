@@ -1,0 +1,13 @@
+.modal-nav__button{
+  padding: 0 15px;
+  flex-grow: 0;
+  border: 2px solid var(--textColorBlack);
+  color: var(--textColorBlack);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 10px 0;
+  align-self: center;
+  height: 40px;
+  border-radius: 20px;
+}

@@ -1,0 +1,29 @@
+.main__title{
+  margin: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 6px 0 12px;
+  /*white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;*/
+  display: block;
+  min-height: 40px;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .main__title{
+    font-size: 58px;
+    line-height: 1.1;
+    min-height: 68px;
+  }
+}
+
+@media screen and (min-width: 124px) {
+  .main__title{
+    text-align: center;
+    margin-left: 10px;
+  }
+}

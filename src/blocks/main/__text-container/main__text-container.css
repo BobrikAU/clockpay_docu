@@ -1,0 +1,23 @@
+.main__text-container{
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow-y: auto;
+	scrollbar-color: var(--colorScrollbarThumb) var(--colorScrollbarTrack);
+	scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+.main__text-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.main__text-container::-webkit-scrollbar-track {
+  background: var(--colorScrollbarTrack);
+  border-radius: 4px;
+}
+
+.main__text-container::-webkit-scrollbar-thumb {
+  background-color: var(--colorScrollbarThumb);
+  border-radius: 4px;
+}
+

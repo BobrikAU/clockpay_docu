@@ -1,0 +1,18 @@
+/*ohne Änderungen*/
+
+.link{
+  text-decoration: none;
+  color: var(--textColorBlack);
+  display: block;
+  opacity: 1;
+  transition: .3s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.link:hover{
+  opacity: .6;
+}
+
+.link:active{
+  background-color: var(--greyColorBackground);
+}

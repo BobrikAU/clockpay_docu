@@ -1,0 +1,6 @@
+.logo__text_link{
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--textColorWhite);
+}

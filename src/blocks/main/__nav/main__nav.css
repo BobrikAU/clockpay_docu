@@ -1,0 +1,16 @@
+.main__nav{
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .main__nav {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--secondaryColorBackground);
+    height: 100%;
+  }
+}
+
+

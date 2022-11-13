@@ -1,0 +1,21 @@
+.main{
+  /*flex-grow: 1;
+  flex-shrink: 1;*/
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 173px);
+}
+
+@media screen and (min-width: 500px) {
+  .main{
+    height: calc(100% - 108px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main{
+    flex-direction: row;
+    height: calc(100% - 132px);
+  }
+}

@@ -1,3 +1,12 @@
 :root{
   --textColorBlack: #242424;
+  --textColorWhite: #fafafa;
+
+  --mainColorBackground: #f8f9fa;
+  --secondaryColorBackground: #eaecee;
+  --greyColorBackground: #909193;
+  --blackColorBackground: #060606;
+
+  --colorScrollbarTrack: #ededef;
+  --colorScrollbarThumb: #878796;
 }

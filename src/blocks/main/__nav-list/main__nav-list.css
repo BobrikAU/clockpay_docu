@@ -1,0 +1,26 @@
+.main__nav-list {
+  padding: 20px 10px 0 10px;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+	scrollbar-color: var(--colorScrollbarThumb) var(--colorScrollbarTrack);
+	scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+.main__nav-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.main__nav-list::-webkit-scrollbar-track {
+  background: var(--colorScrollbarTrack);
+  border-radius: 4px;
+}
+
+.main__nav-list::-webkit-scrollbar-thumb {
+  background-color: var(--colorScrollbarThumb);
+  border-radius: 4px;
+}

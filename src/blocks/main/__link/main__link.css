@@ -1,0 +1,15 @@
+.main__link{
+  text-decoration: none;
+  color: var(--textColorBlack);
+  display: block;
+  /*white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;*/
+  opacity: 1;
+  transition: .3s;
+}
+
+.main__link:hover{
+  opacity: .6;
+}

@@ -1,0 +1,12 @@
+.footer__container-icon{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__container-icon{
+    margin-right: 50px;
+    width: 300px;
+  }
+}
