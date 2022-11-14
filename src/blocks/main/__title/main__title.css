@@ -1,5 +1,4 @@
 .main__title{
-  margin: 0;
   flex-grow: 0;
   flex-shrink: 0;
   margin: 6px 0 12px;
@@ -11,6 +10,7 @@
   font-size: 32px;
   line-height: 1.2;
   font-weight: 700;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -21,9 +21,8 @@
   }
 }
 
-@media screen and (min-width: 124px) {
+@media screen and (min-width: 1024px) {
   .main__title{
-    text-align: center;
     margin-left: 10px;
   }
 }

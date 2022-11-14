@@ -21,6 +21,7 @@
 @import url(../blocks/main/__link/_decoration/main__link_decoration_line.css);
 @import url(../blocks/main/__text-container/main__text-container.css);
 @import url(../blocks//main/__text/main__text.css);
+@import url(../blocks/main/__text/_text-header/main__text_text-header.css);
 @import url(../blocks/main/__contacts/main__contacts.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container-icon/footer__container-icon.css);
