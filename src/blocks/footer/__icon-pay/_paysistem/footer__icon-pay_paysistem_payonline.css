@@ -1,0 +1,9 @@
+.footer__icon-pay_paysistem_payonline{
+  height: 33px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__icon-pay_paysistem_payonline{
+    height: 49px;
+  }
+}

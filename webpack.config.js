@@ -43,11 +43,16 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      filename: 'index.html',
       template: './src/index.html'
     }),
     new HtmlWebpackPlugin({
       filename: 'license.html',
       template: './src/license.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'publication.html',
+      template: './src/publication.html'
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin()
