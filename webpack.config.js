@@ -54,6 +54,10 @@ module.exports = {
       filename: 'publication.html',
       template: './src/publication.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'privacy.html',
+      template: './src/privacy.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin()
   ]

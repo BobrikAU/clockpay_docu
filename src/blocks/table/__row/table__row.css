@@ -1,0 +1,14 @@
+.table__row{
+  display:table-row;
+  box-sizing: content-box;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.table__row:nth-child(odd){
+  background-color: var(--secondaryColorBackground);
+}
+
+.table__row:first-of-type{
+  height: 50px;
+}

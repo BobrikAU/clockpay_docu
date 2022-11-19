@@ -22,6 +22,13 @@
 @import url(../blocks/main/__text-container/main__text-container.css);
 @import url(../blocks//main/__text/main__text.css);
 @import url(../blocks/main/__text/_text-header/main__text_text-header.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/main/__table/main__table.css);
+@import url(../blocks/table/__row/table__row.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/main/__list/main__list.css);
+@import url(../blocks/main/__li/_weight/main__li_weight_normal.css);
+@import url(../blocks/main/__li/_fontSize/main__li_fontSize_text.css);
 @import url(../blocks/main/__contacts/main__contacts.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container-icon/footer__container-icon.css);
