@@ -66,6 +66,10 @@ module.exports = {
       filename: 'payment.html',
       template: './src/payment.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'agent.html',
+      template: './src/agent.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin()
   ]
