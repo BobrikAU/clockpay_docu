@@ -62,6 +62,10 @@ module.exports = {
       filename: 'approval.html',
       template: './src/approval.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'payment.html',
+      template: './src/payment.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin()
   ]

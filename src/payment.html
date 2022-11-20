@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="<%=require('./images/Icon.png')%>">
+    <title>Порядок оплаты</title>
+  </head>
+  <body class="page">
+
+    <!-- шапка сайта -->
+    <header class="header">
+
+      <!-- логотип-ссылка для десктопной версии и для планшетов-->
+      <a href="https://clockpay.me/" target="_blank" class="logo header__logo">
+        <img
+          src="<%=require('./images/IconOnly (1).jpg')%>"
+          alt="Логотип clockpay.me"
+          class="logo__img"
+        >
+        <span class="logo__text_link">clockpay.me</span>
+      </a>
+
+      <!-- кнопка вызова модального окна навигации в мобильной верстке -->
+      <button type="button" class="header__button"></button>
+    </header>
+
+    <!-- основной раздел сайта -->
+    <main class="main">
+
+      <!-- колонка слева с навигацией -->
+      <nav class="main__nav">
+        <ul class="main__nav-list">
+          <li class="main__li">
+            <a
+              href="./index.html"
+              class="main__link"
+            >
+              Пользовательское соглашение
+            </a>
+          </li>
+          <li class="main__li">
+            <a
+              href="./license.html"
+              class="main__link"
+            >
+              Лицензионный договор
+            </a>
+          </li>
+          <li class="main__li">
+            <a
+              href="./publication.html"
+              class="main__link"
+            >
+              Правила публикации контента
+            </a>
+          </li>
+          <li class="main__li">
+            <a
+              href="./privacy.html"
+              class="main__link"
+            >
+              Политика обработки персональных данных
+            </a>
+          </li>
+          <li class="main__li">
+            <a
+              href="./approval.html"
+              class="main__link"
+            >
+              Согласие на Подписку
+            </a>
+          </li>
+          <li class="main__li">
+            <span>
+              Конфиденциальность платежей и порядок оплаты
+            </span>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- окно с документом -->
+      <section class="main__document-container">
+        <h1
+          class="main__title"
+        >
+          Конфиденциальность платежей и порядок оплаты.
+        </h1>
+        <div class="main__text-container">
+          <p class="main__text">
+            1. Оплатить заказ можно банковскими картами Visa, Master Card, «Мир».
+          </p>
+          <p class="main__text">
+            2. Чтобы оплатить покупку, вы будете переправлены на сервера Платёжного
+            сервиса ООО «ПэйОнлайн Систем» (ИНН/ КПП 7743731941/770501001,
+            ОГРН 1097746015047).
+          </p>
+          <p class="main__text">
+            3. При оплате банковской картой безопасность платежей гарантирует
+            процессинговый центр Платежного сервиса.
+          </p>
+          <p class="main__text">
+            4. Платежный сервис обладает подтвержденным сертификатом соответствия
+            требованиям стандарта PCI DSS в части хранения, обработки и передачи
+            данных держателей карт.
+          </p>
+          <p class="main__text">
+            5. Стандарт безопасности банковских карт PCI DSS поддерживается
+            международными платежными системами, включая MasterCard и Visa, Inc.
+            Платежные системы также являются участниками программы непрерывного
+            соответствия Compliance Control PCI DSS Compliance Process (P.D.C.P.).
+          </p>
+          <p class="main__text">
+            6. Конфиденциальные данные, необходимые для оплаты (реквизиты карты,
+            регистрационные данные и др.), не поступают Владельцу платформы
+            (ИП Осипова Екатерина Александровна (ОГРНИП: 322112100023828,
+            ИНН: 112105338142)) — их обработка производится на стороне процессинговых
+            центров Платёжного сервиса и полностью защищена.
+          </p>
+          <p class="main__text">
+            7. Никто, в том числе Владелец платформы и Платформа не могут получить
+            данные банковской карты или иные данные, необходимые для осуществления
+            платежа.
+          </p>
+          <p class="main__text">
+            8. К оплате принимаются платежные карты: VISA, MasterCard, Maestro, МИР.
+          </p>
+          <p class="main__text">
+            9. Для оплаты товара банковской картой при оформлении заказа на
+            Платформе выберите способ оплаты: банковской картой.
+          </p>
+          <p class="main__text">
+            10. При оплате заказа банковской картой, обработка платежа происходит
+            на авторизационной странице Платёжного сервиса, где необходимо ввести
+            данные Вашей банковской карты:
+          </p>
+          <ul class="main__list main__list_style_disk">
+            <li
+              class=" main__li
+                      main__li_weight_normal
+                      main__li_fontSize_text"
+            >
+              Номер карты
+            </li>
+            <li
+              class=" main__li
+                      main__li_weight_normal
+                      main__li_fontSize_text"
+            >
+              Срок действия карты
+            </li>
+            <li
+              class=" main__li
+                      main__li_weight_normal
+                      main__li_fontSize_text"
+            >
+              Имя держателя карты (латинскими буквами, точно также как указано на карте)
+            </li>
+            <li
+              class=" main__li
+                      main__li_weight_normal
+                      main__li_fontSize_text"
+            >
+              CVC2/CVV2 код
+            </li>
+          </ul>
+          <p class="main__text">
+            11. Если карта подключена к услуге 3D-Secure, Вы будете автоматически
+            переадресованы на страницу банка, выпустившего карту, для прохождения
+            процедуры аутентификации.
+          </p>
+          <p class="main__text">
+            12. Информацию о правилах и методах дополнительной идентификации уточняйте
+            в Банке-эмитенте, выдавшем Вам банковскую карту.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- подвал сайта -->
+    <footer class="footer">
+      <!-- логотипы платежных систем -->
+      <div class="footer__container-icon">
+        <img
+          src="<%=require('./images/mir.svg')%>"
+          alt="Логотип МИР"
+          class="footer__icon-pay"
+        >
+        <img
+          src="<%=require('./images/visa.svg')%>"
+          alt="Логотип Visa"
+          class="footer__icon-pay"
+        >
+        <img
+          src="<%=require('./images/mastercard.svg')%>"
+          alt="Логотип MasterCard"
+          class="footer__icon-pay"
+        >
+        <img
+          src="<%=require('./images/m_logo-payonline.png')%>"
+          alt="Логотип PayOnline"
+          class="footer__icon-pay footer__icon-pay_paysistem_payonline"
+        >
+      </div>
+
+      <!-- логотип-ссылка для мобильной версии -->
+      <a href="https://clockpay.me/" target="_blank" class="logo footer__logo">
+        <img
+          src="<%=require('./images/IconOnly (1).jpg')%>"
+          alt="Логотип clockpay.me"
+          class="logo__img"
+        >
+        <span class="logo__text_link">clockpay.me</span>
+      </a>
+    </footer>
+
+    <!-- модальное окно с навигацией для мобильной версии и для планшета -->
+    <div class="modal-nav">
+
+      <!-- навигация по документам -->
+      <nav class="modal-nav__nav">
+        <ul class="nav-list">
+          <li class="nav-list__li">
+            <a href="./index.html" class="link">
+              Пользовательское соглашение
+            </a>
+          </li>
+          <li class="nav-list__li">
+            <a href="./license.html" class="link">
+              Лицензионный договор
+            </a>
+          </li>
+          <li class="nav-list__li">
+            <a href="./publication.html" class="link">
+              Правила публикации контента
+            </a>
+          </li>
+          <li class="nav-list__li">
+            <a href="./privacy.html" class="link">
+              Политика обработки персональных данных
+            </a>
+          </li>
+          <li class="nav-list__li">
+            <a href="./approval.html" class="link">
+              Согласие на Подписку
+            </a>
+          </li>
+          <li class="nav-list__li">
+            <span>
+              Конфиденциальность платежей и порядок оплаты
+            </span>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- кнопка закрытия модального окна -->
+      <button class="modal-nav__button">Вернуться назад</button>
+    </div>
+
+  </body>
+</html>
