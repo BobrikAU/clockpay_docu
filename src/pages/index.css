@@ -17,6 +17,7 @@
 @import url(../blocks/main/__link/_documents-menu/main__link_documents-menu.css);
 @import url(../blocks/main/__document-container/main__document-container.css);
 @import url(../blocks/main/__title/main__title.css);
+@import url(../blocks/main/__title/_size/main__title_size_small.css);
 @import url(../blocks/main/__caption/main__caption.css);
 @import url(../blocks/main/__link/_decoration/main__link_decoration_line.css);
 @import url(../blocks/main/__text-container/main__text-container.css);

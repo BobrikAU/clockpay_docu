@@ -58,6 +58,10 @@ module.exports = {
       filename: 'privacy.html',
       template: './src/privacy.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'approval.html',
+      template: './src/approval.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin()
   ]

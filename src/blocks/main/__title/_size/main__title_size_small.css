@@ -1,0 +1,9 @@
+.main__title_size_small{
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .main__title_size_small{
+    font-size: 30px;
+  }
+}
