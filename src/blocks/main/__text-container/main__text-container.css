@@ -5,6 +5,8 @@
 	scrollbar-color: var(--colorScrollbarThumb) var(--colorScrollbarTrack);
 	scrollbar-width: thin;
   scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
 }
 
 .main__text-container::-webkit-scrollbar {

@@ -7,7 +7,7 @@
   text-overflow: ellipsis;
   word-wrap: break-word;*/
   opacity: 1;
-  transition: .3s;
+  transition: opacity .25s;
 }
 
 .main__link:hover{

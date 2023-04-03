@@ -21,6 +21,8 @@
 @import url(../blocks/main/__caption/main__caption.css);
 @import url(../blocks/main/__caption/_alternative/main__caption_alternative_annex.css);
 @import url(../blocks/main/__link/_decoration/main__link_decoration_line.css);
+@import Url(../blocks/main/__link/_form/main__link_form_button.css);
+@import url(../blocks/main/__link/_show/main__link_show.css);
 @import url(../blocks/main/__text-container/main__text-container.css);
 @import url(../blocks//main/__text/main__text.css);
 @import url(../blocks/main/__text/_word-wrap/main__text_word-wrap.css);

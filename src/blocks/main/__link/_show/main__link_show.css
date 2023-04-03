@@ -1,0 +1,9 @@
+.main__link_show{
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .25s, visibility 0s linear 0s;
+}
+
+.main__link_show:hover{
+  opacity: 1;
+}

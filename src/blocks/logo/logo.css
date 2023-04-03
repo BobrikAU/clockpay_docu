@@ -7,4 +7,10 @@
   text-decoration: none;
   border-radius: 30px;
   background-color: var(--blackColorBackground);
+  opacity: 1;
+  transition: opacity .25s;
+}
+
+.logo:hover{
+  opacity: .7;
 }
