@@ -4,8 +4,10 @@
   "description": "documents of the service clockpay.me",
   "main": "index.js",
   "scripts": {
-    "build": "rd /s /q dist && webpack",
-    "dev": "webpack serve"
+    "check-dir-no": "node -e \"const fs = require('fs'); fs.access('./dist', (err) => {if (err) {fs.mkdirSync('./dist')}})\"",
+    "check-dir-yes": "node -e \"const fs = require('fs'); fs.access('./dist', (err) => {if (!err) {fs.rmdirSync('./dist', { recursive: true, force: true })}})\"",
+    "build": "npm run check-dir-no && rd /s /q dist && webpack --mode=production",
+    "dev": "npm run check-dir-yes && webpack serve --mode=development"
   },
   "repository": {
     "type": "git",
