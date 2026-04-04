@@ -50,8 +50,8 @@
 @import url(../blocks/modal-nav/__nav/modal-nav__nav.css);
 @import url(../blocks/nav-list/nav-list.css);
 @import url(../blocks/nav-list/__li/nav-list__li.css);
+@import url(../blocks/nav-list/__li/_active/nav-list__li_active.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks//nav-list/_documents-menu/nav-list_documents-menu.css);
 @import url(../blocks/link/_documents-menu/link_documents-menu.css);
 @import url(../blocks/modal-nav/__button/modal-nav__button.css);
-
