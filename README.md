@@ -1,29 +1,32 @@
-# Документация сервиса clockpay.me
+# Dokumentation des Services clockpay.me
 
-## Цель проекта
+[Русский](./README.ru.md)
 
-Задача проекта - предоставить пользователю ознакомиться с юридическими документами по услугам сервиса монетизации телеграмм-каналов clockpay.me .
+## Ziel des Projekts
 
-## Характеристика проекта
+Ziel des Projekts ist es, Nutzern den Zugang zu rechtlichen Dokumenten für den Monetarisierungsdienst für Telegram-Kanäle _clockpay.me_ zu ermöglichen.
 
-Представленный самостоятельно выполненный проект представляет собой несколько отдельных html-страниц, каждая из которых посвящена одному документу. Html-страницы адаптивны под ширину окна просмотра от 375px и больше, сверстаны по принципу mobile first.
+## Beschreibung des Projekts
 
-## Использованные технологии
+Dieses Projekt besteht aus mehreren separaten HTML-Seiten, die jeweils einem einzelnen Dokument gewidmet sind.\
+Die Seiten sind responsiv gestaltet und passen sich Bildschirmbreiten ab 375 Pixeln an.\
+Die Umsetzung erfolgte nach dem Mobile-First-Ansatz.
 
-HTML, CSS, адаптивная верстка, БЭМ-методология, JavaScript, Webpack .
+## Verwendete Technologien
 
-## Доступные скрипты
+HTML, CSS, JavaScript, Webpack, responsives Design, BEM-Methode.
 
-Находясь в дирректории проекта, можно выполнить следующие команды:
+## Verfügbare Skripte
 
-### `npm run dev`
+Im Projektverzeichnis können folgende Befehle ausführt werden:
 
-Запуск проекта в режиме разработки. Страница перегружается после сохранения изменений в коде.
+`npm run dev`\
+Startet das Projekt im Entwicklungsmodus. Die Seite wird nach Änderungen am Code automatisch neu geladen.
 
-### `npm run build`
+`npm run build`\
+Erstellt das Projekt für die Bereitstellung. Auf Kundenwunsch werden die Markup-Dateien im finalen Build in separaten Verzeichnissen abgelegt und als _index.php_ benannt.
 
-Сборка проекта для размещения. По просьбе заказчика в итоговой сборке файлы с разметкой должны размещаться каждый по разным каталогам и называться index.php.
+## Veröffentlichung
 
-## Публикация
-
-Проект размещен по [адресу](https://clockpay.me/docs/rules/) .
+Der Dienst _clockpay.me_ ist derzeit nicht mehr verfügbar.\
+Das Projekt kann jedoch über GitHub Pages unter [folgendem Link](https://bobrikau.github.io/clockpay_docu/) eingesehen werden.

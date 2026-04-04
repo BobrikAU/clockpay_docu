@@ -1,11 +1,12 @@
-.page{
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+.page {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   color: var(--textColorBlack);
   background-color: var(--mainColorBackground);
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   height: 100vh;
+  height: 100dvh;
   width: 100%;
   max-width: 1440px;
   padding: 10px;

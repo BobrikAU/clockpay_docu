@@ -7,7 +7,8 @@
     "check-dir-no": "node -e \"const fs = require('fs'); fs.access('./dist', (err) => {if (err) {fs.mkdirSync('./dist')}})\"",
     "check-dir-yes": "node -e \"const fs = require('fs'); fs.access('./dist', (err) => {if (!err) {fs.rmSync('./dist', { recursive: true, force: true })}})\"",
     "build": "npm run check-dir-no && rd /s /q dist && webpack --mode=production",
-    "dev": "npm run check-dir-yes && webpack serve --mode=development"
+    "dev": "npm run check-dir-yes && webpack serve --mode=development",
+    "deploy": "gh-pages -d dist/docs"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
     "cssnano": "^5.1.14",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "postcss-loader": "^7.0.1",
